@@ -1,0 +1,169 @@
+/* Reset */
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Page background */
+
+body{
+  background: linear-gradient(to right,#4facfe,#00f2fe);
+  min-height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+/* Main container */
+
+.container{
+  width:400px;
+  background:white;
+  padding:30px;
+  border-radius:10px;
+  box-shadow:0 5px 15px rgba(0,0,0,0.2);
+}
+
+/* Titles */
+
+h2{
+  text-align:center;
+  margin-bottom:20px;
+  color:#333;
+}
+
+/* Inputs */
+
+input{
+  width:100%;
+  padding:10px;
+  margin:8px 0;
+  border-radius:5px;
+  border:1px solid #ccc;
+  font-size:14px;
+}
+
+/* Buttons */
+
+button{
+  width:100%;
+  padding:10px;
+  background:#007bff;
+  border:none;
+  color:white;
+  font-size:16px;
+  border-radius:5px;
+  cursor:pointer;
+  margin-top:10px;
+}
+
+button:hover{
+  background:#0056b3;
+}
+
+/* ================= DASHBOARD ================= */
+
+.dashboard{
+  background:white;
+  padding:35px;
+  border-radius:12px;
+  width:450px;
+  box-shadow:0 8px 20px rgba(0,0,0,0.2);
+  text-align:center;
+}
+
+/* Dashboard title */
+
+.dashboard h2{
+  margin-bottom:25px;
+  color:#333;
+}
+
+/* Dashboard buttons */
+
+.dashboard a{
+  display:block;
+  padding:12px;
+  margin:4px 0;
+  background:#f1f1f1;
+  text-decoration:none;
+  color:#333;
+  border-radius:6px;
+  font-size:15px;
+  font-weight:500;
+  transition:0.3s;
+}
+
+/* Hover effect */
+
+.dashboard a:hover{
+  background:#007bff;
+  color:white;
+  transform:scale(1.05);
+}
+
+/* ================= TABLES ================= */
+
+table{
+  width:100%;
+  border-collapse:collapse;
+  margin-top:20px;
+  background:white;
+}
+
+th{
+  background:#007bff;
+  color:white;
+  padding:10px;
+}
+
+td{
+  padding:10px;
+  text-align:center;
+  border-bottom:1px solid #ddd;
+}
+.table-container{
+  width:100%;
+  overflow-x:auto;
+}
+/* ================= RESPONSIVE ================= */
+.container select {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  background-color: white;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+.input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.input:focus {
+  outline: none;
+  border-color: #4a90e2;
+}
+
+@media(max-width:500px){
+
+.container{
+  width:90%;
+}
+
+.dashboard{
+  width:90%;
+}
+
+}
