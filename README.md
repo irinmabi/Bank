@@ -14,38 +14,32 @@ Bank/
 └── FinalProj/    # Backend - Java
 ---
 
+---
+
 ## 📌 Modules
 
 ### 👨‍💼 Admin
-- Add, update, and delete bank employees
+- Update and delete bank employees
 - View all customer accounts
 - Monitor all transactions (deposit, withdrawal, transfer)
-- Approve or reject loan requests
-- Generate financial reports
-- Manage branch details
-- View total bank balance and profit reports
-- Freeze or activate customer accounts
-- View system logs and activity history
 
 ### 👨‍💻 Bank Staff (Employee)
-- Register new customers
-- Open new bank accounts (Savings / Current / Fixed Deposit)
-- Update customer details
-- Deposit and withdraw money
-- Process money transfers
-- View customer transaction history
-- Accept and forward loan applications
-- Close customer accounts (with admin approval)
+- Register and login securely
 - View self-details
+- View and remove customers
+- Update customer details
+- Approve customer requests to open an account
+- View customer transaction history
 
 ### 👤 Customer
 - Register and login securely
-- View account details and balance
-- Deposit, withdraw, and transfer money
+- View account details and profile
+- Request to open an account
+- Check account balance
+- Deposit and withdraw money
+- Transfer money to another account
 - View transaction history
-- Apply for loans and track loan status (Approved / Rejected / Pending)
-- Update personal details and change password
-- View profile details
+- Update personal details
 
 ---
 
