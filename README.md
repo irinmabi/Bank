@@ -3,7 +3,7 @@
 A full-stack Bank Management System built with **React** (Frontend) and **Java** (Backend), designed to manage banking operations efficiently through a secure and transparent platform.
 
 **Developed by:** Irin Mariyam Abi  
-**Date:** 20/02/2026
+**Date:** 10/03/2026
 
 ---
 
